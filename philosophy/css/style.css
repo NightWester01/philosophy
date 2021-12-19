@@ -1,0 +1,100 @@
+/*основа основ №1*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*основа основ №2*/
+html{
+    font-family: 'Roboto', sans-serif;
+}
+html,body{
+    height: 100%
+}
+header,main, footer{
+    margin: 0 auto;
+    width: 1040px;
+}
+main{
+    padding-bottom: 100px;
+}
+body{
+    background-color: rgb(53, 94, 170);
+    color: rgb(255, 255, 255);
+}
+/*классы*/
+.lol{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: justify;
+    font-size: 20px;
+}
+.h1_center{
+    display: block;
+    text-align: center;
+}
+.center_lol{
+    text-align: center;
+}
+.lol2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: justify;
+    font-size: 18px;
+}
+/*id-шники*/
+#about{
+    text-align: center;
+}
+#who{
+    font-size: 25px;
+}
+.shadow{
+    background: rgb(168, 168, 168);
+    box-shadow: 0 0 10px;
+    padding: 2px;
+}
+/*Кнопки выбора вариантов ответа и сами кнопки ответа*/
+.btn{
+    display: block;
+    height: 45px;
+    width: 150px;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 6px;
+    transition: all 0.2s ease-out;
+}
+.otvet{
+    display: block;
+    height:30px;
+    width: 130px;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+/*псевдокласс, срабатывает при наведении мышки*/
+.btn:hover{
+    font-size: 17px;
+}
+.otvet:hover{
+    font-size: 17px;
+}
+/*Заголовки*/
+.red{
+    color: red;
+}
+.green{
+    color: rgb(43, 255, 0);
+}
